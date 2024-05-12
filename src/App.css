@@ -215,7 +215,8 @@
 
 .repos-container .content .repos .box {
   border-radius: 4px;
-  background-color: var(--bg-color4-);
+  background-color: var(--bg-color-);
+  border: 1px solid var(--bg-color4-);
   width: 70vw;
   padding: 0.75rem 0;
   font-size: 1.5rem;
@@ -260,7 +261,7 @@
 }
 
 .itemInfoContent #xyz {
-  border-bottom: 2px solid var(--bg-color3-);
+  border-bottom: 1px solid var(--bg-color3-);
   font-size: 1.5rem;
 }
 
@@ -382,4 +383,10 @@
   padding: 0.5rem 1rem;
   font-size: 2rem;
 }
+}
+
+@media (max-width: 900px) {
+  .header-container {
+    margin: 0;
+  }
 }
