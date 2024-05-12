@@ -8,7 +8,7 @@
   --txt-color2-: #fff;
   --shadow-: rgb(0, 0, 0, 0.3);
   --bg-color3-: rgb(184, 123, 31);
-  --bg-color4-: rgb(194, 151, 250);
+  --bg-color4-: rgb(194, 151, 250,0.7);
 }
 
 * {
@@ -114,6 +114,8 @@
   transition: all ease-out 0.4s;
 }
 
+
+
 .header-container .header .repositoty-inputBox .input div:nth-child(1) .btnCreate:hover{
   background-color: var(--shadow-);
   color: var(--txt-color3-);
@@ -215,7 +217,7 @@
   border-radius: 4px;
   background-color: var(--bg-color4-);
   width: 70vw;
-  padding: 0.5rem 2rem;
+  padding: 0.75rem 0;
   font-size: 1.5rem;
   text-align: center;
   color: var(--txt-color3-);
@@ -241,7 +243,7 @@
   background-color: var(--bg-color-);
   width: 70vw;
   margin: 1rem 0 1rem 0;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   color: var(--txt-color3-);
   cursor: pointer;
   gap: 0.75rem;
@@ -287,7 +289,6 @@
   background-color: var(--txt-color2-);
   box-shadow: 0.2rem 0.2rem 0.2rem var(--shadow-);
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .repos-container .content .paginate{
@@ -315,7 +316,7 @@
   color: var(--txt-color3-);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   * {
     font-size: 60%;
   }
@@ -328,4 +329,49 @@
   .header-container .header .githubAt {
     transform: translate(0);
   }
+  .repos-container .content .repos .box {
+    font-size: 2.5rem;
+  }
+  .repos-container .content ::placeholder {
+    font-size: 1.75rem;
+  }
+  
+.header-container .header .repositoty-inputBox .input div:nth-child(1) input{
+  font-size: 1.75rem;
+}
+.itemInfoContent div p{
+  font-size: 1.5rem;
+}
+.itemInfoContent span{
+  font-size: 1.5rem;
+}
+.itemInfoContent div{
+ margin: 0 2.5rem 0 ;
+}
+.itemInfoContent {
+  width: 90vw;
+}
+.repos-container .content .prev,
+.repos-container .content .next {
+  font-size: 1.5rem;
+}
+.header-container .header .repositoty-inputBox .cancel button{
+  font-size: 1.5rem;
+}
+.header-container .header .repositoty-inputBox .input div:nth-child(1) .btnCreate{
+  font-size: 1.7rem;
+}
+.header-container .header .repositoty-inputBox .input{
+  padding: 2rem 1rem;
+}
+.repos-container .content input {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+}
+.itemInfoContent div button {
+  font-size: 1.5rem;
+}
+.header-container .header .githubAt {
+  font-size: 1.5rem;
+}
 }
