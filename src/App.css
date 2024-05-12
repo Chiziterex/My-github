@@ -62,7 +62,7 @@
 }
 
 .header-container .header .button .btn {
-  color: var(--txt-color-);
+  color: var(--txt-color2-);
   padding: 0.5rem 2rem;
   background-color: var(--bg-color3-);
   font-size: 1.5rem;
@@ -326,11 +326,14 @@
   .header-container .header h1 {
     text-align: center;
   }
-  .header-container .header .githubAt {
+  .header-container .header .githubAt{
     transform: translate(0);
+    font-size: 2rem;
   }
   .repos-container .content .repos .box {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    width: 90vw;
+    height: 40px;
   }
   .repos-container .content ::placeholder {
     font-size: 1.75rem;
@@ -373,5 +376,10 @@
 }
 .header-container .header .githubAt {
   font-size: 1.5rem;
+}
+.header-container .header .button .btn {
+  color: var(--txt-color2-);
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
 }
 }
