@@ -83,7 +83,7 @@ function Repos() {
                   </p>
                   <p>
                     <span>Forks: </span>
-                    {item.forks}
+                    {item.Forks}
                   </p>
                   <p>
                     <span>Language: </span>
