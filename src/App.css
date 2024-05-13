@@ -346,6 +346,9 @@
 .itemInfoContent div p{
   font-size: 1.5rem;
 }
+.itemInfoContent div p a{
+  font-size: 1.5rem;
+}
 .itemInfoContent span{
   font-size: 1.5rem;
 }

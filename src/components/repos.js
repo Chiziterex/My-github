@@ -91,13 +91,11 @@ function Repos() {
                   </p>
                   <p>
                     <span>Description: </span>
-                    {item.description}
+                    {item.Description}
                   </p>
-                  <p>
-                    <a href={item.url}>
-                      <span>URL:</span>
-                    </a>{" "}
-                    {item.url}
+                  <p><span>URL: </span>
+                    <a href={item.url}>{item.url}
+                    </a>
                   </p>
                   <button onClick={() => hideDetails(`box-${item.id}`)}>
                     close
