@@ -5,7 +5,7 @@ export const repoBox = [
     url: "https://github.com/Chiziterex/Owa",
     stars: 0,
     Forks: 0,
-    language: "HTML",
+    language: "CSS",
     Description:
       "None",
   },
