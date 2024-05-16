@@ -1,11 +1,11 @@
 export const repoBox = [
   {
     id: 1,
-    title: "Owa",
-    url: "https://github.com/Chiziterex/Owa",
+    title: "Owambe",
+    url: "https://github.com/Chiziterex/Owambe",
     stars: 0,
     Forks: 0,
-    language: "CSS",
+    language: "Javascript",
     Description:
       "None",
   },
